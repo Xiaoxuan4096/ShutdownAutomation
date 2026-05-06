@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ShutdownAutomation.vcxproj" />
+  <Project Path="ShutdownAutomation.vcxproj" Id="986e03eb-f83d-4215-8ed3-7bbaa05e9ac8" />
 </Solution>

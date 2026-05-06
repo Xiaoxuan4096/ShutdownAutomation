@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
     }
 
     if (argc == 2) {
-        if (std::string(argv[1])== "shutdown") {
+        if (std::string(argv[1])== "--shutdown") {
             std::cout << "Received shutdown argument, proceeding shutdown." << std::endl;
             system("shutdown -s -t 60");
         }
