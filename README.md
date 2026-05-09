@@ -24,6 +24,9 @@
 > | 1 | 非 `--shutdown` 的任何内容 |
 > | 2 个及以上 | 任意内容 |
 
+### 小故事
+想了解项目背后的小故事吗？请点击[这里](Story.md)。
+
 ---
 <a id="en-us"></a>
 ## English Version
@@ -46,3 +49,6 @@ This is a shutdown tool for Windows.
 > | 0 | (None) |
 > | 1 | Anything other than `--shutdown` |
 > | 2 or more | Anything |
+
+### Story Behind the Program
+Want to know the story behind the program? Please click [here](Story.md).
