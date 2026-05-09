@@ -11,7 +11,7 @@
 
 int main(int argc, char* argv[]) {
     if (argc == 1) {
-        std::cout << "No argument supplied, canceling shutdown by default." << std::endl;
+        std::cout << "No argument provided, canceling shutdown by default." << std::endl;
         system("shutdown -a");
     }
 
@@ -21,13 +21,13 @@ int main(int argc, char* argv[]) {
             system("shutdown -s -t 60");
         }
         else {
-            std::cout << "Not received shutdown argument, canceling shutdown by default." << std::endl;
+            std::cout << "Haven't receive shutdown argument, canceling shutdown by default." << std::endl;
             system("shutdown -a");
         }
     }
 
     if (argc > 2) {
-        std::cout << "Too many arguments supplied, canceling shutdown by default." << std::endl;
+        std::cout << "Too many arguments provided, canceling shutdown by default." << std::endl;
         system("shutdown -a");
     }
     return 0;
