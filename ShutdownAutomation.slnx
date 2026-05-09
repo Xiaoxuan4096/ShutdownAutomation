@@ -4,4 +4,5 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="ShutdownAutomation.vcxproj" Id="986e03eb-f83d-4215-8ed3-7bbaa05e9ac8" />
+  <Project Path="ShutdownAutomationSetup/ShutdownAutomationSetup.vdproj" Type="Installer" />
 </Solution>
