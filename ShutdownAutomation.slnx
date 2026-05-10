@@ -3,7 +3,11 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Setup_x64/Setup_x64.vdproj" Type="Installer" />
-  <Project Path="Setup_x86/Setup_x86.vdproj" Type="Installer" />
+  <Project Path="Setup_x64/Setup_x64.vdproj" Type="Installer">
+    <Build />
+  </Project>
+  <Project Path="Setup_x86/Setup_x86.vdproj" Type="Installer">
+    <Build />
+  </Project>
   <Project Path="ShutdownAutomation.vcxproj" Id="986e03eb-f83d-4215-8ed3-7bbaa05e9ac8" />
 </Solution>
